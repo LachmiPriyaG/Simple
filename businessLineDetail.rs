@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>businessLineDetail</name>
+   <tag></tag>
+   <elementGuidId>f004ad2c-4860-4316-bd4b-31c8d3d3656b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/form/div[6]/div/section/div/div[1]/div[3]/div[1]/div/div/div/div/div/div[1]/div/div/label/div[1]/div/p/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
