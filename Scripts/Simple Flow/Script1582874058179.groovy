@@ -24,7 +24,7 @@ WebUI.maximizeWindow()
 
 //Navigate to SMB site
 WebUI.click(findTestObject('Object Repository/Simple Flow/viewBusiness'))
-
+WebUI.delay(20)
 WebUI.click(findTestObject('Object Repository/Simple Flow/navToProd'))
 
 //Location field - Provide the address
