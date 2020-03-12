@@ -23,151 +23,151 @@ WebUI.navigateToUrl(GlobalVariable.url)
 WebUI.maximizeWindow()
 
 //Navigate to SMB site
-WebUI.click(findTestObject('viewBusiness'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/viewBusiness'))
 
-WebUI.click(findTestObject('navToProd'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/navToProd'))
 
 //Location field - Provide the address
-WebUI.click(findTestObject('locationAddress'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/locationAddress'))
 
 //Address Verification
-WebUI.setText(findTestObject('street'), GlobalVariable.address)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/street'), GlobalVariable.address)
 
 //WebUI.delay(5)
-WebUI.sendKeys(findTestObject('street'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Simple Flow/street'), Keys.chord(Keys.ENTER))
 
 //WebUI.sendKeys(findTestObject('null'), GlobalVariable.zipcode)
-WebUI.click(findTestObject('addressFromDropdown'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/addressFromDropdown'))
 
-WebUI.click(findTestObject('checkAvailability'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/checkAvailability'))
 
 //Plan selection page - Verifying the text in the page
 //WebUI.waitForPageLoad(5)
-WebUI.verifyElementText(findTestObject('planPageHeader'), GlobalVariable.planheading)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/planPageHeader'), GlobalVariable.planheading)
 
-WebUI.verifyElementText(findTestObject('internetText'), GlobalVariable.internet)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetText'), GlobalVariable.internet)
 
-WebUI.verifyElementText(findTestObject('voiceText'), GlobalVariable.voice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/voiceText'), GlobalVariable.voice)
 
-WebUI.verifyElementText(findTestObject('advancedBusinessSolutionText'), GlobalVariable.advancedbusinesssolutions)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/advancedBusinessSolutionText'), GlobalVariable.advancedbusinesssolutions)
 
 //Plan selection page - clicking on the Internet Icon
-WebUI.click(findTestObject('internetIconPlanPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/internetIconPlanPage'))
 
-WebUI.click(findTestObject('voiceIconPlanPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/voiceIconPlanPage'))
 
-WebUI.click(findTestObject('letsSubmitButtonPlanPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/letsSubmitButtonPlanPage'))
 
 //Internet Plan page - Selecting the 100Mbps plan
-WebUI.click(findTestObject('plan100selecticon'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/plan100selecticon'))
 
-WebUI.verifyElementText(findTestObject('plan100'), GlobalVariable.plan100value)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/plan100'), GlobalVariable.plan100value)
 
-WebUI.verifyElementText(findTestObject('plan100mbps'), GlobalVariable.plan100speed)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/plan100mbps'), GlobalVariable.plan100speed)
 
-WebUI.scrollToElement(findTestObject('continueButtonInternetPage'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Simple Flow/continueButtonInternetPage'), 3)
 
-WebUI.click(findTestObject('continueButtonInternetPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/continueButtonInternetPage'))
 
 //Internet Extra Pack page - Selecting the Communication Package
-WebUI.verifyElementText(findTestObject('internetExtraPackHeader'), GlobalVariable.internetextrapackageheader)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetExtraPackHeader'), GlobalVariable.internetextrapackageheader)
 
-WebUI.click(findTestObject('internetCommunicationPackageSelect'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/internetCommunicationPackageSelect'))
 
-WebUI.verifyElementText(findTestObject('internetCommunicationPackageDetails'), GlobalVariable.internetcommunicationpackinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetCommunicationPackageDetails'), GlobalVariable.internetcommunicationpackinfo)
 
-WebUI.verifyElementText(findTestObject('internetCommunicationPackagePrice'), GlobalVariable.internetcommunicationpackprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetCommunicationPackagePrice'), GlobalVariable.internetcommunicationpackprice)
 
 //Validating if the other extra packages are visible on the page along with their package name and price
-WebUI.verifyElementText(findTestObject('internetSecurityPack'), GlobalVariable.internetsecurityinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetSecurityPack'), GlobalVariable.internetsecurityinfo)
 
-WebUI.verifyElementText(findTestObject('internetSecurityPrice'), GlobalVariable.internetsecurityprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetSecurityPrice'), GlobalVariable.internetsecurityprice)
 
-WebUI.verifyElementText(findTestObject('internetCompletePack'), GlobalVariable.internetcompleteinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetCompletePack'), GlobalVariable.internetcompleteinfo)
 
-WebUI.verifyElementText(findTestObject('internetCompletePrice'), GlobalVariable.internetcompleteprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/internetCompletePrice'), GlobalVariable.internetcompleteprice)
 
-WebUI.scrollToElement(findTestObject('submitButtonIntPackPage'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Simple Flow/submitButtonIntPackPage'), 3)
 
-WebUI.click(findTestObject('submitButtonIntPackPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/submitButtonIntPackPage'))
 
 //Internet Extra Pack1 page - Selecting the Fax Package
-WebUI.click(findTestObject('faxToEmailSelection'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/faxToEmailSelection'))
 
-WebUI.verifyElementText(findTestObject('faxToEmailDetail'), GlobalVariable.faxinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/faxToEmailDetail'), GlobalVariable.faxinfo)
 
-WebUI.verifyElementText(findTestObject('faxToEmailPrice'), GlobalVariable.faxprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/faxToEmailPrice'), GlobalVariable.faxprice)
 
 //Validating if the other extra packages are visible on the page along with their package name and price
-WebUI.verifyElementText(findTestObject('wirelessBackupDetail'), GlobalVariable.wirelessbackupinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/wirelessBackupDetail'), GlobalVariable.wirelessbackupinfo)
 
-WebUI.verifyElementText(findTestObject('wirelessBackupPrice'), GlobalVariable.wirelessbackupprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/wirelessBackupPrice'), GlobalVariable.wirelessbackupprice)
 
-WebUI.scrollToElement(findTestObject('submitButtonIntExtraPackPage'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Simple Flow/submitButtonIntExtraPackPage'), 3)
 
-WebUI.click(findTestObject('submitButtonIntExtraPackPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/submitButtonIntExtraPackPage'))
 
 //Modem Page - Selecting the Modem Rental option
-WebUI.verifyElementText(findTestObject('modemPageHeader'), GlobalVariable.modemheader)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/modemPageHeader'), GlobalVariable.modemheader)
 
-WebUI.click(findTestObject('modemRentalSelection'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/modemRentalSelection'))
 
-WebUI.verifyElementText(findTestObject('modemRentalDetail'), GlobalVariable.modeminfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/modemRentalDetail'), GlobalVariable.modeminfo)
 
-WebUI.verifyElementText(findTestObject('modemRentalPrice'), GlobalVariable.modemprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/modemRentalPrice'), GlobalVariable.modemprice)
 
-WebUI.scrollToElement(findTestObject('submitButtonModemPage'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Simple Flow/submitButtonModemPage'), 3)
 
-WebUI.click(findTestObject('submitButtonModemPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/submitButtonModemPage'))
 
 //Voice Product page - Choosing the business line details plan
-WebUI.verifyElementText(findTestObject('voiceHeader'), GlobalVariable.voicepageheader)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/voiceHeader'), GlobalVariable.voicepageheader)
 
-WebUI.click(findTestObject('businessLineSelection'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/businessLineSelection'))
 
-WebUI.verifyElementText(findTestObject('businessLineDetail'), GlobalVariable.voicebusinesslineinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/businessLineDetail'), GlobalVariable.voicebusinesslineinfo)
 
-WebUI.verifyElementText(findTestObject('businessLinePrice'), GlobalVariable.voicebusinesslineprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/businessLinePrice'), GlobalVariable.voicebusinesslineprice)
 
-WebUI.verifyElementText(findTestObject('voiceCloudDetail'), GlobalVariable.voicecloudbasedinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/voiceCloudDetail'), GlobalVariable.voicecloudbasedinfo)
 
-WebUI.verifyElementText(findTestObject('voiceCloudPrice'), GlobalVariable.voicecloudbasedprice)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/voiceCloudPrice'), GlobalVariable.voicecloudbasedprice)
 
-WebUI.scrollToElement(findTestObject('submitButtonVoicePage'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Simple Flow/submitButtonVoicePage'), 3)
 
-WebUI.click(findTestObject('submitButtonVoicePage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/submitButtonVoicePage'))
 
 //Adding the phone numbers and moving to the checkout page
-WebUI.verifyElementText(findTestObject('phoneNumberHeader'), GlobalVariable.phoneheader)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/phoneNumberHeader'), GlobalVariable.phoneheader)
 
-WebUI.click(findTestObject('firstNumberBox'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/firstNumberBox'))
 
-WebUI.setText(findTestObject('firstNumberBox'), GlobalVariable.firstnumber)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/firstNumberBox'), GlobalVariable.firstnumber)
 
-WebUI.click(findTestObject('secondNumberBox'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/secondNumberBox'))
 
-WebUI.setText(findTestObject('secondNumberBox'), GlobalVariable.secondnumber)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/secondNumberBox'), GlobalVariable.secondnumber)
 
-WebUI.click(findTestObject('thirdNumberBox'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/thirdNumberBox'))
 
-WebUI.setText(findTestObject('thirdNumberBox'), GlobalVariable.thirdnumber)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/thirdNumberBox'), GlobalVariable.thirdnumber)
 
-WebUI.scrollToElement(findTestObject('submitButtonNumberPage'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Simple Flow/submitButtonNumberPage'), 3)
 
-WebUI.click(findTestObject('submitButtonNumberPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/submitButtonNumberPage'))
 
 //Page to add the advanced business solution option - Skip the option
-WebUI.verifyElementText(findTestObject('optionToAddBusinessSolution'), GlobalVariable.addbusinesssolution)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/optionToAddBusinessSolution'), GlobalVariable.addbusinesssolution)
 
-WebUI.scrollToElement(findTestObject('skipLinkForAddingBusinessSolution'), 3)
+WebUI.scrollToElement(findTestObject('Object Repository/Simple Flow/skipLinkForAddingBusinessSolution'), 3)
 
-WebUI.click(findTestObject('skipLinkForAddingBusinessSolution'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/skipLinkForAddingBusinessSolution'))
 
 //CheckOut page
-WebUI.verifyElementText(findTestObject('checkoutHeader'), GlobalVariable.checkoutheader)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/checkoutHeader'), GlobalVariable.checkoutheader)
 
 //Verifying if the cart is shown on the RHS along with product details/discount & bill value
-WebUI.verifyElementText(findTestObject('cartHeader'), GlobalVariable.productcart)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/cartHeader'), GlobalVariable.productcart)
 
 WebUI.verifyElementText(findTestObject('Simple Flow/cartInternetProduct'), GlobalVariable.cartIntp)
 
@@ -207,78 +207,78 @@ WebUI.verifyElementText(findTestObject('Simple Flow/cartActivationFeeProduct'), 
 
 WebUI.verifyElementText(findTestObject('Simple Flow/cartActivationFee'), GlobalVariable.cartactivationfeep)
 
-WebUI.verifyElementText(findTestObject('bundleDiscount'), GlobalVariable.discounts)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/bundleDiscount'), GlobalVariable.discounts)
 
-WebUI.verifyElementText(findTestObject('totalBillInfo'), GlobalVariable.totalbill)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/totalBillInfo'), GlobalVariable.totalbill)
 
-WebUI.verifyElementText(findTestObject('totalBillPrice'), GlobalVariable.totalbillamt)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/totalBillPrice'), GlobalVariable.totalbillamt)
 
-WebUI.click(findTestObject('checkoutButton'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/checkoutButton'))
 
 //Contact Information page
-WebUI.verifyElementText(findTestObject('contactBillingHeader'), GlobalVariable.contactbillinginfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/contactBillingHeader'), GlobalVariable.contactbillinginfo)
 
-WebUI.verifyElementText(findTestObject('contactInformation'), GlobalVariable.contactinfo)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/contactInformation'), GlobalVariable.contactinfo)
 
-WebUI.click(findTestObject('firstName'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/firstName'))
 
-WebUI.setText(findTestObject('firstName'), GlobalVariable.firstn)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/firstName'), GlobalVariable.firstn)
 
-WebUI.click(findTestObject('lastName'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/lastName'))
 
-WebUI.setText(findTestObject('lastName'), GlobalVariable.lastn)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/lastName'), GlobalVariable.lastn)
 
-WebUI.click(findTestObject('contactNumber'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/contactNumber'))
 
-WebUI.setText(findTestObject('contactNumber'), GlobalVariable.contact)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/contactNumber'), GlobalVariable.contact)
 
-WebUI.click(findTestObject('emailAddress'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/emailAddress'))
 
-WebUI.setText(findTestObject('emailAddress'), GlobalVariable.emailid)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/emailAddress'), GlobalVariable.emailid)
 
 //Providing the business details
-WebUI.verifyElementText(findTestObject('businessInfoHeader'), GlobalVariable.businessheader)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/businessInfoHeader'), GlobalVariable.businessheader)
 
 //WebUI.scrollToElement(findTestObject(null), 1)
-WebUI.click(findTestObject('businessName'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/businessName'))
 
-WebUI.setText(findTestObject('businessName'), GlobalVariable.businessn)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/businessName'), GlobalVariable.businessn)
 
-WebUI.click(findTestObject('businessFedNumber'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/businessFedNumber'))
 
-WebUI.setText(findTestObject('businessFedNumber'), GlobalVariable.businessfedno)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/businessFedNumber'), GlobalVariable.businessfedno)
 
-WebUI.click(findTestObject('noOfEmp'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/noOfEmp'))
 
-WebUI.setText(findTestObject('noOfEmp'), GlobalVariable.totalemp)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/noOfEmp'), GlobalVariable.totalemp)
 
-WebUI.click(findTestObject('noOfLoc'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/noOfLoc'))
 
-WebUI.setText(findTestObject('noOfLoc'), GlobalVariable.totalloc)
+WebUI.setText(findTestObject('Object Repository/Simple Flow/noOfLoc'), GlobalVariable.totalloc)
 
 //WebUI.scrollToElement(findTestObject(null), 3)
 //Choosing the billing address
-WebUI.verifyElementText(findTestObject('billingAddressHeader'), GlobalVariable.billingheader)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/billingAddressHeader'), GlobalVariable.billingheader)
 
-WebUI.click(findTestObject('billingAddressSelection'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/billingAddressSelection'))
 
-WebUI.click(findTestObject('submitButtonFinalPage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/submitButtonFinalPage'))
 
 //Selecting the installion date
-WebUI.verifyElementText(findTestObject('installationDate'), GlobalVariable.installdate)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/installationDate'), GlobalVariable.installdate)
 
-WebUI.click(findTestObject('installationDatePicker'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/installationDatePicker'))
 
-WebUI.click(findTestObject('moveToNextMonth'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/moveToNextMonth'))
 
-WebUI.click(findTestObject('aprDate'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/aprDate'))
 
-WebUI.click(findTestObject('buttonDatePicker'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/buttonDatePicker'))
 
-WebUI.click(findTestObject('submitButtonDatePage'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/submitButtonDatePage'))
 
 //Terms & Condition Page
-WebUI.verifyElementText(findTestObject('termsAndCondition'), GlobalVariable.termscondition)
+WebUI.verifyElementText(findTestObject('Object Repository/Simple Flow/termsAndCondition'), GlobalVariable.termscondition)
 
-WebUI.click(findTestObject('termsAndConditionSelection'))
+WebUI.click(findTestObject('Object Repository/Simple Flow/termsAndConditionSelection'))
 
