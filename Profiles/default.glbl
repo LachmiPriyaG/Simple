@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2541 N 48th St, Lincoln NE'</initValue>
+      <name>address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30530</initValue>
+      <name>zipcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://test-2.windstream.com/siteselector'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Internet'</initValue>
+      <name>internet</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Voice'</initValue>
+      <name>voice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Advanced Business Solutions'</initValue>
+      <name>advancedbusinesssolutions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'What are you shopping for today?'</initValue>
+      <name>planheading</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'100'</initValue>
+      <name>plan100value</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mbps'</initValue>
+      <name>plan100speed</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bolster your IT portfolio with cost-effective IT security &amp; communications packs'</initValue>
+      <name>internetextrapackageheader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Communications Pack'</initValue>
+      <name>internetcommunicationpackinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$15.00/mo'</initValue>
+      <name>internetcommunicationpackprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Fax to Email'</initValue>
+      <name>faxinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$9.99/mo'</initValue>
+      <name>faxprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Modem Rental'</initValue>
+      <name>modeminfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$5.00/mo'</initValue>
+      <name>modemprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Choose your equipment'</initValue>
+      <name>modemheader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Select a business voice solution'</initValue>
+      <name>voicepageheader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Business Line with Unlimited Long Distance and Features'</initValue>
+      <name>voicebusinesslineinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$50.00/mo'</initValue>
+      <name>voicebusinesslineprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Uptime Security Pack'</initValue>
+      <name>internetsecurityinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$10.00/mo'</initValue>
+      <name>internetsecurityprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Complete Pack'</initValue>
+      <name>internetcompleteinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$20.00/mo'</initValue>
+      <name>internetcompleteprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Always On Internet Wireless Backup'</initValue>
+      <name>wirelessbackupinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$40.00/mo'</initValue>
+      <name>wirelessbackupprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cloud-based VoIP solution powered by OfficeSuite UC®'</initValue>
+      <name>voicecloudbasedinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$19.95/mo'</initValue>
+      <name>voicecloudbasedprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Keep your existing phone numbers'</initValue>
+      <name>phoneheader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'(111) 111-1111'</initValue>
+      <name>firstnumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'(222) 222-2222'</initValue>
+      <name>secondnumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'(333) 333-3333'</initValue>
+      <name>thirdnumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Do you have everything you need?'</initValue>
+      <name>addbusinesssolution</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ready to checkout?'</initValue>
+      <name>checkoutheader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test'</initValue>
+      <name>firstn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'flow'</initValue>
+      <name>lastn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'(555) 555-5555'</initValue>
+      <name>contact</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test@windstream.com'</initValue>
+      <name>emailid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Business Information'</initValue>
+      <name>businessheader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Fedx Test'</initValue>
+      <name>businessn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'11-1111111'</initValue>
+      <name>businessfedno</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'50'</initValue>
+      <name>totalemp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10'</initValue>
+      <name>totalloc</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Billing Address'</initValue>
+      <name>billingheader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2. Preferred Installation Date'</initValue>
+      <name>installdate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I Agree to Terms &amp; Conditions'</initValue>
+      <name>termscondition</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Selected Products'</initValue>
+      <name>productcart</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bundle Discounts'</initValue>
+      <name>discounts</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'- $ 30'</initValue>
+      <name>discountsprice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Total Bill'</initValue>
+      <name>totalbill</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$193.98'</initValue>
+      <name>totalbillamt</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1. Contact &amp; Billing'</initValue>
+      <name>contactbillinginfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Contact Information'</initValue>
+      <name>contactinfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Internet'</initValue>
+      <name>cartIntp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kinetic Internet 100'</initValue>
+      <name>cartkineticp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'100 Mbps'</initValue>
+      <name>cartkineticspeedp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$44.99/mo'</initValue>
+      <name>cartkineticpricep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Add-ons'</initValue>
+      <name>cartaddonsp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Communications Pack'</initValue>
+      <name>cartcommp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$15.00 /mo'</initValue>
+      <name>cartcommpricep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Additional Add-ons'</initValue>
+      <name>cartadditionaladdonp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Fax to Email'</initValue>
+      <name>cartfaxtoemailp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$9.99 /mo'</initValue>
+      <name>cartfaxtoemailpricep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Equipment'</initValue>
+      <name>cartequipp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Modem Rental'</initValue>
+      <name>cartmodemp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$5.00 /mo'</initValue>
+      <name>cartmodempricep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Voice'</initValue>
+      <name>cartvoicep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Business Line with Unlimited Long Distance and Features'</initValue>
+      <name>cartbusinesslinep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$50/mo'</initValue>
+      <name>cartbusinesslinepricep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'One-Time Charge'</initValue>
+      <name>cartotcp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Activation Fee'</initValue>
+      <name>cartactivationp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$99.00'</initValue>
+      <name>cartactivationfeep</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

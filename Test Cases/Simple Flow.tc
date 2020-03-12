@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Simple Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b18518d8-f8b0-44cb-99d3-fc2f6116a01f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45967727-4bfa-4aaa-bce2-b710afc31c1e</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
